@@ -1,0 +1,32 @@
+[0203/132227.765:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0203/132923.359:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0203/132923.359:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0203/132923.359:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/132923.361:ERROR:exception_snapshot_win.cc(99)] thread ID 11312 not found in process
+[0203/132923.368:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/132923.369:ERROR:exception_snapshot_win.cc(99)] thread ID 3360 not found in process
+[0203/133054.577:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/133054.577:ERROR:exception_snapshot_win.cc(99)] thread ID 18572 not found in process
+[0203/133054.581:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0203/133054.581:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/133054.581:ERROR:exception_snapshot_win.cc(99)] thread ID 11496 not found in process
+[0203/133054.593:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/133054.593:ERROR:exception_snapshot_win.cc(99)] thread ID 14360 not found in process
+[0203/140618.664:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/140618.665:ERROR:exception_snapshot_win.cc(99)] thread ID 15304 not found in process
+[0203/140618.665:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/140618.665:ERROR:exception_snapshot_win.cc(99)] thread ID 18648 not found in process
+[0203/140618.679:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0203/140618.679:ERROR:exception_snapshot_win.cc(99)] thread ID 17164 not found in process
+[0204/121032.996:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0204/121033.005:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0204/121033.005:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0204/121033.013:ERROR:exception_snapshot_win.cc(99)] thread ID 3056 not found in process
+[0204/121033.040:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0204/121033.041:ERROR:exception_snapshot_win.cc(99)] thread ID 26468 not found in process
+[0204/202912.744:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0205/124031.194:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0205/124031.204:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0205/124031.210:ERROR:exception_snapshot_win.cc(99)] thread ID 26716 not found in process
+[0205/124031.225:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0205/124031.225:ERROR:exception_snapshot_win.cc(99)] thread ID 2104 not found in process

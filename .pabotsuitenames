@@ -1,0 +1,6 @@
+datasources:4042eed53c95adb43723d72bc25805ffc9bbb790
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:9f6d7422c82833320121f34b9eb694e6325a6697
+--suite Suites.Alerts
+--suite Suites.Capturescreen

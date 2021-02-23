@@ -1,0 +1,21 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Alerts                                                                 
+==============================================================================
+Handling Alerts                                                       clicked on accept and the alert is Press a button!
+clicked on dismiss and the dismissed alert is Press a button!
+verified positive test
+Verified leave and the alert is Press a button!
+closed browser
+| PASS |
+------------------------------------------------------------------------------
+Suites.Alerts                                                         | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\0\output.xml
