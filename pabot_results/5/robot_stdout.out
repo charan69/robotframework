@@ -1,0 +1,26 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Ddt3                                                                   
+==============================================================================
+LoginTestwithCSV using admin@yourstore.com admi                       | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+LoginTestwithCSV using charan@yourstore.com admin                     | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+LoginTestwithCSV using kartheek@yourstore.com admi                    | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+LoginTestwithCSV using admin@yourstore.com admin                      | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+Suites.Ddt3                                                           | FAIL |
+4 critical tests, 0 passed, 4 failed
+4 tests total, 0 passed, 4 failed
+==============================================================================
+Suites                                                                | FAIL |
+4 critical tests, 0 passed, 4 failed
+4 tests total, 0 passed, 4 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\5\output.xml

@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Mouseactions                                                           
+==============================================================================
+Mouse Actions                                                         | FAIL |
+Element with locator '//li[@class='context-menu-item context-menu-icon context-menu-icon-edit']' not found.
+------------------------------------------------------------------------------
+Suites.Mouseactions                                                   | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\12\output.xml

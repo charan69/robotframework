@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Table                                                                  
+==============================================================================
+TableValidations                                                      7
+4
+Master In Java
+| PASS |
+------------------------------------------------------------------------------
+Suites.Table                                                          | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\19\output.xml

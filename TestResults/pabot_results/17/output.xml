@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:44:47.502" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Tabbedbrowser" source="C:\Users\chara\PycharmProjects\sample\Testcases\tabbedbrowser.robot">
+<test id="s1-s1-t1" name="Handling tabbed browsers">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:44:48.642" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20210316 17:44:48.642" endtime="20210316 17:45:01.041"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:45:01.041" endtime="20210316 17:45:01.208"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210316 17:45:03.294" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210316 17:45:01.209" endtime="20210316 17:45:03.296"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.bing.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:45:03.298" level="INFO">Opening browser 'chrome' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20210316 17:45:03.296" endtime="20210316 17:45:10.408"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:45:10.408" endtime="20210316 17:45:10.614"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20210316 17:45:12.618" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210316 17:45:10.615" endtime="20210316 17:45:12.618"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:45:12.618" endtime="20210316 17:45:12.619"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20210316 17:45:12.659" level="INFO">${title} = Google</msg>
+<status status="PASS" starttime="20210316 17:45:12.619" endtime="20210316 17:45:12.660"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>title of the first browser is ${title}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:45:12.660" endtime="20210316 17:45:12.661"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:45:12.662" endtime="20210316 17:45:12.662"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20210316 17:45:25.133" level="INFO">${title} = Bing</msg>
+<status status="PASS" starttime="20210316 17:45:12.662" endtime="20210316 17:45:25.133"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>title of the second browser is ${title}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:45:25.133" endtime="20210316 17:45:25.133"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20210316 17:45:25.133" endtime="20210316 17:45:37.630"></status>
+</kw>
+<status status="PASS" starttime="20210316 17:44:48.640" endtime="20210316 17:45:37.630" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210316 17:44:47.637" endtime="20210316 17:45:37.631"></status>
+</suite>
+<status status="PASS" starttime="20210316 17:44:47.506" endtime="20210316 17:45:37.633"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Tabbedbrowser">Suites.Tabbedbrowser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

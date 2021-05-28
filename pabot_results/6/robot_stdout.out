@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Dropdowns                                                              
+==============================================================================
+Handling dropdowns and listboxes                                      | FAIL |
+List with locator '//select[@id='continents']' not found.
+------------------------------------------------------------------------------
+Suites.Dropdowns                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\6\output.xml

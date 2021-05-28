@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Speedtest                                                              
+==============================================================================
+RegTest                                                               | FAIL |
+WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=89.0.4389.90)
+------------------------------------------------------------------------------
+Suites.Speedtest                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\16\output.xml

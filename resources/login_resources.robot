@@ -31,7 +31,7 @@ input My password
     sleep   2
 
 click on Login button
-    click element  xpath://input[@value='Log in']
+    click element  xpath://button[normalize-space()='Log in']
 
 click logout
     click link  xpath://a[normalize-space()='Logout']

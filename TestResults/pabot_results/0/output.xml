@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.6.4 on win32)" generated="20210222 13:01:33.964" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:43:47.092" rpa="false">
 <suite id="s1" name="Suites">
-<suite id="s1-s1" name="Alerts" source="C:\Users\chara\PycharmProjects\sample\headlesstestcases\alerts.robot">
+<suite id="s1-s1" name="Alerts" source="C:\Users\chara\PycharmProjects\sample\Testcases\alerts.robot">
 <test id="s1-s1-t1" name="Handling Alerts">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
 <arg>http://testautomationpractice.blogspot.com/</arg>
-<arg>headlesschrome</arg>
+<arg>chrome</arg>
 </arguments>
-<msg timestamp="20210222 13:01:34.272" level="INFO">Opening browser 'headlesschrome' to base url 'http://testautomationpractice.blogspot.com/'.</msg>
-<status status="PASS" starttime="20210222 13:01:34.271" endtime="20210222 13:01:46.994"></status>
+<msg timestamp="20210316 17:43:47.772" level="INFO">Opening browser 'chrome' to base url 'http://testautomationpractice.blogspot.com/'.</msg>
+<status status="PASS" starttime="20210316 17:43:47.771" endtime="20210316 17:44:01.485"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210222 13:01:46.994" endtime="20210222 13:01:49.156"></status>
+<status status="PASS" starttime="20210316 17:44:01.486" endtime="20210316 17:44:04.669"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath://button[normalize-space()='Click Me']</arg>
 </arguments>
-<msg timestamp="20210222 13:01:49.157" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
-<status status="PASS" starttime="20210222 13:01:49.156" endtime="20210222 13:01:49.208"></status>
+<msg timestamp="20210316 17:44:04.670" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
+<status status="PASS" starttime="20210316 17:44:04.670" endtime="20210316 17:44:09.140"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:01:52.223" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:01:49.208" endtime="20210222 13:01:52.224"></status>
+<msg timestamp="20210316 17:44:12.148" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:09.140" endtime="20210316 17:44:12.148"></status>
 </kw>
 <kw name="Handle Alert" library="SeleniumLibrary">
 <doc>Handles the current alert and returns its message.</doc>
@@ -40,31 +40,31 @@
 <assign>
 <var>${handlealertaccept}</var>
 </assign>
-<msg timestamp="20210222 13:01:52.233" level="INFO">${handlealertaccept} = Press a button!</msg>
-<status status="PASS" starttime="20210222 13:01:52.224" endtime="20210222 13:01:52.234"></status>
+<msg timestamp="20210316 17:44:12.542" level="INFO">${handlealertaccept} = Press a button!</msg>
+<status status="PASS" starttime="20210316 17:44:12.148" endtime="20210316 17:44:12.542"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>clicked on accept and the alert is ${handlealertaccept}</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:01:52.234" endtime="20210222 13:01:52.235"></status>
+<status status="PASS" starttime="20210316 17:44:12.542" endtime="20210316 17:44:12.542"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath://button[normalize-space()='Click Me']</arg>
 </arguments>
-<msg timestamp="20210222 13:01:52.236" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
-<status status="PASS" starttime="20210222 13:01:52.236" endtime="20210222 13:01:52.313"></status>
+<msg timestamp="20210316 17:44:12.543" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
+<status status="PASS" starttime="20210316 17:44:12.543" endtime="20210316 17:44:13.887"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:01:55.324" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:01:52.313" endtime="20210222 13:01:55.325"></status>
+<msg timestamp="20210316 17:44:16.895" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:13.887" endtime="20210316 17:44:16.896"></status>
 </kw>
 <kw name="Handle Alert" library="SeleniumLibrary">
 <doc>Handles the current alert and returns its message.</doc>
@@ -74,69 +74,69 @@
 <assign>
 <var>${handlealertdismiss}</var>
 </assign>
-<msg timestamp="20210222 13:01:55.329" level="INFO">${handlealertdismiss} = Press a button!</msg>
-<status status="PASS" starttime="20210222 13:01:55.325" endtime="20210222 13:01:55.329"></status>
+<msg timestamp="20210316 17:44:17.057" level="INFO">${handlealertdismiss} = Press a button!</msg>
+<status status="PASS" starttime="20210316 17:44:16.896" endtime="20210316 17:44:17.057"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>clicked on dismiss and the dismissed alert is ${handlealertdismiss}</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:01:55.329" endtime="20210222 13:01:55.330"></status>
+<status status="PASS" starttime="20210316 17:44:17.058" endtime="20210316 17:44:17.058"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:01:58.332" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:01:55.330" endtime="20210222 13:01:58.332"></status>
+<msg timestamp="20210316 17:44:20.063" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:17.058" endtime="20210316 17:44:20.064"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath://button[normalize-space()='Click Me']</arg>
 </arguments>
-<msg timestamp="20210222 13:01:58.333" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
-<status status="PASS" starttime="20210222 13:01:58.333" endtime="20210222 13:01:58.366"></status>
+<msg timestamp="20210316 17:44:20.064" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
+<status status="PASS" starttime="20210316 17:44:20.064" endtime="20210316 17:44:23.128"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:02:01.380" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:01:58.366" endtime="20210222 13:02:01.380"></status>
+<msg timestamp="20210316 17:44:26.135" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:23.128" endtime="20210316 17:44:26.136"></status>
 </kw>
 <kw name="Alert Should Be Present" library="SeleniumLibrary">
 <doc>Verifies that an alert is present and, by default, accepts it.</doc>
 <arguments>
 <arg>Press a button!</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:02:01.380" endtime="20210222 13:02:01.391"></status>
+<status status="PASS" starttime="20210316 17:44:26.137" endtime="20210316 17:44:26.427"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>verified positive test</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:02:01.391" endtime="20210222 13:02:01.393"></status>
+<status status="PASS" starttime="20210316 17:44:26.428" endtime="20210316 17:44:26.429"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath://button[normalize-space()='Click Me']</arg>
 </arguments>
-<msg timestamp="20210222 13:02:01.394" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
-<status status="PASS" starttime="20210222 13:02:01.393" endtime="20210222 13:02:01.428"></status>
+<msg timestamp="20210316 17:44:26.434" level="INFO">Clicking element 'xpath://button[normalize-space()='Click Me']'.</msg>
+<status status="PASS" starttime="20210316 17:44:26.433" endtime="20210316 17:44:27.062"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:02:04.443" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:02:01.428" endtime="20210222 13:02:04.443"></status>
+<msg timestamp="20210316 17:44:30.073" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:27.062" endtime="20210316 17:44:30.073"></status>
 </kw>
 <kw name="Handle Alert" library="SeleniumLibrary">
 <doc>Handles the current alert and returns its message.</doc>
@@ -146,40 +146,40 @@
 <assign>
 <var>${alertleave}</var>
 </assign>
-<msg timestamp="20210222 13:02:04.452" level="INFO">${alertleave} = Press a button!</msg>
-<status status="PASS" starttime="20210222 13:02:04.444" endtime="20210222 13:02:04.452"></status>
+<msg timestamp="20210316 17:44:30.077" level="INFO">${alertleave} = Press a button!</msg>
+<status status="PASS" starttime="20210316 17:44:30.074" endtime="20210316 17:44:30.077"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210222 13:02:07.464" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210222 13:02:04.453" endtime="20210222 13:02:07.464"></status>
+<msg timestamp="20210316 17:44:33.089" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:30.077" endtime="20210316 17:44:33.091"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Verified leave and the alert is ${alertleave}</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:02:07.464" endtime="20210222 13:02:07.465"></status>
+<status status="PASS" starttime="20210316 17:44:33.091" endtime="20210316 17:44:33.092"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210222 13:02:07.465" endtime="20210222 13:02:09.579"></status>
+<status status="PASS" starttime="20210316 17:44:33.092" endtime="20210316 17:44:47.369"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>closed browser</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:02:09.579" endtime="20210222 13:02:09.581"></status>
+<status status="PASS" starttime="20210316 17:44:47.369" endtime="20210316 17:44:47.369"></status>
 </kw>
-<status status="PASS" starttime="20210222 13:01:34.270" endtime="20210222 13:02:09.582" critical="yes"></status>
+<status status="PASS" starttime="20210316 17:43:47.770" endtime="20210316 17:44:47.370" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210222 13:01:33.991" endtime="20210222 13:02:09.584"></status>
+<status status="PASS" starttime="20210316 17:43:47.198" endtime="20210316 17:44:47.371"></status>
 </suite>
-<status status="PASS" starttime="20210222 13:01:33.966" endtime="20210222 13:02:09.588"></status>
+<status status="PASS" starttime="20210316 17:43:47.096" endtime="20210316 17:44:47.373"></status>
 </suite>
 <statistics>
 <total>

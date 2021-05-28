@@ -3,8 +3,8 @@ Library  SeleniumLibrary
 Resource  ../resources/login_resources.robot
 Suite Setup  openMybrowser
 Suite Teardown  CloseAllMyBrowsers
-Test Template   invalidLoginScenario's
-#Test Template  validLoginScenario's
+#Test Template   invalidLoginScenario's
+Test Template  validLoginScenario's
 
 *** Test Cases ***      Username        password
 valid user name empty password   admin@yourstore.com     ${EMPTY}

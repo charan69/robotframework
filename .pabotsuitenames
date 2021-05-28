@@ -1,6 +1,31 @@
-datasources:4042eed53c95adb43723d72bc25805ffc9bbb790
+datasources:9c414a35227b25b71d183687965a56399bda770f
 commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
 suitesfrom:no-suites-from-option
-file:9f6d7422c82833320121f34b9eb694e6325a6697
+file:9c2ceab8822d5dc8d820f2e9d5b64c71d8c80a81
 --suite Suites.Alerts
 --suite Suites.Capturescreen
+--suite Suites.Closeall
+--suite Suites.Ddt1
+--suite Suites.Ddt2
+--suite Suites.Ddt3
+--suite Suites.Dropdowns
+--suite Suites.Forloop
+--suite Suites.Frames
+--suite Suites.Implicittest
+--suite Suites.Inputbox
+--suite Suites.Links
+--suite Suites.Mouseactions
+--suite Suites.Navigationalcommands
+--suite Suites.Radiobuttons
+--suite Suites.Scrollbar
+--suite Suites.Speedtest
+--suite Suites.Tabbedbrowser
+--suite Suites.Tabbedwindows
+--suite Suites.Table
+--suite Suites.Tagging
+--suite Suites.Tc1
+--suite Suites.Timeouttest
+--suite Suites.Userkeywords Variables
+--suite Suites.Userkeywords Variables Returnvalue
+--suite Suites.loginTest
+--suite Suites.setupAndTearDown

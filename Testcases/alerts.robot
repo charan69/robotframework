@@ -25,11 +25,11 @@ Handling Alerts
     log to console  verified positive test
 
     #verify negative
-    #click element  xpath://button[normalize-space()='Click Me']
-     #sleep  3
-    #alert should not be present  Press a button!
-    #handle alert  dismiss
-    #log to console  verified negative test
+    click element  xpath://button[normalize-space()='Click Me']
+    sleep  3
+    alert should be present  Do not Press a button!
+    handle alert  dismiss
+    log to console  verified negative test
 
 
     #verify leave

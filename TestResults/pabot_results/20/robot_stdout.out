@@ -1,0 +1,30 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tagging                                                                
+==============================================================================
+Tc1 user Registration Test                                            This is user registration test
+This is user registration test over
+| PASS |
+------------------------------------------------------------------------------
+Tc2 Login Test                                                        This is login test
+This is login tests over
+| PASS |
+------------------------------------------------------------------------------
+Tc3 Search User                                                       This is search user test
+This is search user test is over
+| PASS |
+------------------------------------------------------------------------------
+Tc4 Logout Test                                                       This is logout test
+This is logout tests over
+| PASS |
+------------------------------------------------------------------------------
+Suites.Tagging                                                        | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\20\output.xml

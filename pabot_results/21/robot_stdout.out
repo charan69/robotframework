@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tc1                                                                    
+==============================================================================
+LoginTest                                                             | FAIL |
+Link with locator 'xpath://a[normalize-space()='Log in']' not found.
+------------------------------------------------------------------------------
+Suites.Tc1                                                            | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\21\output.xml

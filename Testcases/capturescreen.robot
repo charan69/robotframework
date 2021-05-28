@@ -9,6 +9,6 @@ Capture Screenshot
     input text  xpath://input[@id='txtPassword']    admin123
     sleep   2
     set screenshot directory    C:/Users/chara/PycharmProjects/sample/Screenshots
-    #capture page screenshot     C:/Users/chara/PycharmProjects/sample/Testcases/page.png
-    capture page screenshot     page3.png
+    capture page screenshot     C:/Users/chara/PycharmProjects/sample/Testcases/page.png
+    capture page screenshot     page9.png
     close browser

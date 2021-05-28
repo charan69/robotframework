@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Speedtest                                                              
+==============================================================================
+RegTest                                                               default speed is 0 seconds
+now the speed is 2 seconds
+| PASS |
+------------------------------------------------------------------------------
+Suites.Speedtest                                                      | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\16\output.xml

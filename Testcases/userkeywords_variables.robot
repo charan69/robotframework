@@ -34,7 +34,7 @@ loginToApplication
    sleep    ${sleep}
    input text   id:Password     hello@123
    sleep    ${sleep}
-   click element    xpath://input[@value='Log in']
+   click element    xpath://button[normalize-space()='Log in']
    sleep    ${sleep}
 
 

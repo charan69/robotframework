@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.loginTest                                                              
+==============================================================================
+loginTest                                                             | FAIL |
+Element with locator 'xpath://input[@name='userName']' not found.
+------------------------------------------------------------------------------
+Suites.loginTest                                                      | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\25\output.xml

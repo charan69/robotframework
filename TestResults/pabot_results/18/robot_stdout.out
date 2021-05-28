@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Tabbedwindows                                                          
+==============================================================================
+Handling tabbed windows                                               switched back to main window and the title is Frames & windows
+| PASS |
+------------------------------------------------------------------------------
+Suites.Tabbedwindows                                                  | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\18\output.xml

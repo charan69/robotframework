@@ -14,6 +14,8 @@ Handling tabbed browsers
     ${title}=   get title
     log to console  title of the first browser is ${title}
 
+    sleep   2
+
     switch browser  2
     ${title}=   get title
     log to console  title of the second browser is ${title}

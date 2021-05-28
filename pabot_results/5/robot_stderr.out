@@ -1,0 +1,11 @@
+[ ERROR ] Error in file 'C:\Users\chara\PycharmProjects\sample\Testcases\ddt3.robot' on line 5: Importing test library 'xlrd' failed: ModuleNotFoundError: No module named 'xlrd'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\chara\PycharmProjects\sample\venv\Scripts\robot.exe
+  C:\Users\chara\AppData\Local\Programs\Python\Python38\python38.zip
+  C:\Users\chara\AppData\Local\Programs\Python\Python38\DLLs
+  C:\Users\chara\AppData\Local\Programs\Python\Python38\lib
+  C:\Users\chara\AppData\Local\Programs\Python\Python38
+  c:\users\chara\pycharmprojects\sample\venv
+  c:\users\chara\pycharmprojects\sample\venv\lib\site-packages

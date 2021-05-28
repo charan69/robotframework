@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:43:48.463" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Navigationalcommands" source="C:\Users\chara\PycharmProjects\sample\Testcases\navigationalcommands.robot">
+<test id="s1-s1-t1" name="Navigation tests">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:43:52.823" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20210316 17:43:52.821" endtime="20210316 17:44:12.101"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:44:12.102" endtime="20210316 17:44:13.443"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser URL.</doc>
+<assign>
+<var>${loc}</var>
+</assign>
+<msg timestamp="20210316 17:44:13.686" level="INFO">${loc} = https://www.google.com/</msg>
+<status status="PASS" starttime="20210316 17:44:13.444" endtime="20210316 17:44:13.686"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>original location is ${loc}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:44:13.687" endtime="20210316 17:44:13.687"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210316 17:44:16.697" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:13.688" endtime="20210316 17:44:16.697"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>https://www.bing.com/</arg>
+</arguments>
+<msg timestamp="20210316 17:44:16.698" level="INFO">Opening url 'https://www.bing.com/'</msg>
+<status status="PASS" starttime="20210316 17:44:16.698" endtime="20210316 17:44:17.559"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser URL.</doc>
+<assign>
+<var>${loc}</var>
+</assign>
+<msg timestamp="20210316 17:44:17.751" level="INFO">${loc} = https://www.bing.com/</msg>
+<status status="PASS" starttime="20210316 17:44:17.560" endtime="20210316 17:44:17.751"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>go to location is ${loc}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:44:17.751" endtime="20210316 17:44:17.751"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210316 17:44:20.821" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:17.752" endtime="20210316 17:44:20.821"></status>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20210316 17:44:20.821" endtime="20210316 17:44:24.991"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser URL.</doc>
+<assign>
+<var>${loc}</var>
+</assign>
+<msg timestamp="20210316 17:44:25.257" level="INFO">${loc} = https://www.google.com/</msg>
+<status status="PASS" starttime="20210316 17:44:24.991" endtime="20210316 17:44:25.257"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>after going back to orginal location is ${loc}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:44:25.258" endtime="20210316 17:44:25.279"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20210316 17:44:28.295" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:25.279" endtime="20210316 17:44:28.295"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210316 17:44:28.296" endtime="20210316 17:44:44.933"></status>
+</kw>
+<status status="PASS" starttime="20210316 17:43:52.819" endtime="20210316 17:44:44.934" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210316 17:43:48.587" endtime="20210316 17:44:44.935"></status>
+</suite>
+<status status="PASS" starttime="20210316 17:43:48.491" endtime="20210316 17:44:44.937"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Navigationalcommands">Suites.Navigationalcommands</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

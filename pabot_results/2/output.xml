@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:39:52.254" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Closeall" source="C:\Users\chara\PycharmProjects\sample\Testcases\closeall.robot">
+<test id="s1-s1-t1" name="CloseAll">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://demowebshop.tricentis.com/register</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:39:54.593" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/register'.</msg>
+<status status="PASS" starttime="20210316 17:39:54.590" endtime="20210316 17:40:35.441"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:40:35.442" endtime="20210316 17:40:37.286"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:40:37.287" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20210316 17:40:37.286" endtime="20210316 17:40:48.337"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:40:48.338" endtime="20210316 17:40:49.272"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://demowebshop.tricentis.com/register</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210316 17:40:49.272" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/register'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20210316 17:41:02.571" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210316 17:41:01.829" endtime="20210316 17:41:02.571"></status>
+</kw>
+<msg timestamp="20210316 17:41:02.584" level="FAIL">WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=89.0.4389.90)
+</msg>
+<status status="FAIL" starttime="20210316 17:40:49.272" endtime="20210316 17:41:02.584"></status>
+</kw>
+<status status="FAIL" starttime="20210316 17:39:54.589" endtime="20210316 17:41:02.586" critical="yes">WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=89.0.4389.90)
+</status>
+</test>
+<status status="FAIL" starttime="20210316 17:39:52.311" endtime="20210316 17:41:02.594"></status>
+</suite>
+<status status="FAIL" starttime="20210316 17:39:52.256" endtime="20210316 17:41:02.599"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Closeall">Suites.Closeall</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

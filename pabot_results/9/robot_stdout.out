@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Implicittest                                                           
+==============================================================================
+RegTest                                                               default implicit wait is 0 seconds
+now implicit wait is 10 seconds
+| FAIL |
+No radio button with name 'Gender' and value 'gender-male' found.
+------------------------------------------------------------------------------
+Suites.Implicittest                                                   | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\9\output.xml

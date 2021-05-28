@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Timeouttest                                                            
+==============================================================================
+RegTest                                                               earlier default timeout is 5 seconds
+now default timeout is 10 seconds
+| FAIL |
+Element 'xpath://input[@id='ConfirmPassword1']' not visible after 10 seconds.
+------------------------------------------------------------------------------
+Suites.Timeouttest                                                    | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\22\output.xml

@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Navigationalcommands                                                   
+==============================================================================
+Navigation tests                                                      original location is https://www.google.com/
+go to location is https://www.bing.com/
+after going back to orginal location is https://www.google.com/
+| PASS |
+------------------------------------------------------------------------------
+Suites.Navigationalcommands                                           | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\13\output.xml

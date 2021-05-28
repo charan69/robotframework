@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:43:49.108" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Inputbox" source="C:\Users\chara\PycharmProjects\sample\Testcases\inputbox.robot">
+<test id="s1-s1-t1" name="TestingInputBox">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+</arguments>
+<msg timestamp="20210316 17:43:52.692" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20210316 17:43:52.691" endtime="20210316 17:44:12.849"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210316 17:44:12.850" endtime="20210316 17:44:13.676"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>nopCommerce demo store</arg>
+</arguments>
+<msg timestamp="20210316 17:44:13.885" level="INFO">Page title is 'nopCommerce demo store'.</msg>
+<status status="PASS" starttime="20210316 17:44:13.677" endtime="20210316 17:44:13.885"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[normalize-space()='Log in']</arg>
+</arguments>
+<msg timestamp="20210316 17:44:13.885" level="INFO">Clicking link 'xpath://a[normalize-space()='Log in']'.</msg>
+<status status="PASS" starttime="20210316 17:44:13.885" endtime="20210316 17:44:17.702"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>id:Email</arg>
+</arguments>
+<assign>
+<var>${email}</var>
+</assign>
+<msg timestamp="20210316 17:44:17.704" level="INFO">${email} = id:Email</msg>
+<status status="PASS" starttime="20210316 17:44:17.702" endtime="20210316 17:44:17.704"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20210316 17:44:18.024" level="INFO">Element 'id:Email' is displayed.</msg>
+<status status="PASS" starttime="20210316 17:44:17.705" endtime="20210316 17:44:18.024"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified with ``locator`` is enabled.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:44:18.024" endtime="20210316 17:44:18.117"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210316 17:44:23.150" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:18.118" endtime="20210316 17:44:23.150"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>charankartheek.budama@gmail.com</arg>
+</arguments>
+<msg timestamp="20210316 17:44:23.151" level="INFO">Typing text 'charankartheek.budama@gmail.com' into text field 'id:Email'.</msg>
+<status status="PASS" starttime="20210316 17:44:23.151" endtime="20210316 17:44:25.820"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210316 17:44:30.824" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:25.820" endtime="20210316 17:44:30.824"></status>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<doc>Clears the value of text entry element identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:44:30.824" endtime="20210316 17:44:30.891"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20210316 17:44:35.896" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210316 17:44:30.891" endtime="20210316 17:44:35.896"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210316 17:44:35.897" endtime="20210316 17:44:44.672"></status>
+</kw>
+<status status="PASS" starttime="20210316 17:43:52.690" endtime="20210316 17:44:44.672" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210316 17:43:49.210" endtime="20210316 17:44:44.673"></status>
+</suite>
+<status status="PASS" starttime="20210316 17:43:49.110" endtime="20210316 17:44:44.677"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Inputbox">Suites.Inputbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

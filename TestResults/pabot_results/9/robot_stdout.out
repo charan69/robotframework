@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Implicittest                                                           
+==============================================================================
+RegTest                                                               default implicit wait is 0 seconds
+now implicit wait is 10 seconds
+| FAIL |
+Element with locator 'xpath://input[@id='ConfirmPassword1']' not found.
+------------------------------------------------------------------------------
+Suites.Implicittest                                                   | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\9\output.xml

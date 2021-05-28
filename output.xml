@@ -1,47 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210222 13:20:08.468" rpa="false">
-<suite id="s1" name="Tagging" source="C:\Users\chara\PycharmProjects\sample\Testcases\tagging.robot">
-<test id="s1-t1" name="Tc2 Login Test">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210528 12:13:14.698" rpa="false">
+<suite id="s1" name="Dbtesting" source="C:\Users\chara\PycharmProjects\sample\Testcases\dbtesting.robot">
+<kw name="Connect To Database" library="DatabaseLibrary" type="setup">
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
 <arguments>
-<arg>This is login test</arg>
+<arg>pymysql</arg>
+<arg>${DBname}</arg>
+<arg>${Dbuser}</arg>
+<arg>${Dbpwd}</arg>
+<arg>${Dbhost}</arg>
+<arg>${Dbport}</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:20:08.493" endtime="20210222 13:20:08.493"></status>
+<msg timestamp="20210528 12:13:14.750" level="INFO">Connecting using : pymysql.connect(db=classicmodels, user=root, passwd=root, host=127.0.0.1, port=3306, charset=None) </msg>
+<status status="PASS" starttime="20210528 12:13:14.737" endtime="20210528 12:13:14.762"></status>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
+<test id="s1-t1" name="Read Customerinfo table">
+<kw name="Check If Exists In Database" library="DatabaseLibrary">
+<doc>Check if any row would be returned by given the input `selectStatement`. If there are no results, then this will
+throw an AssertionError. Set optional input `sansTran` to True to run command without an explicit transaction
+commit or rollback.</doc>
 <arguments>
-<arg>This is login tests over</arg>
+<arg>select * from classicmodels.customerinfo where BookName='selenium';</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:20:08.494" endtime="20210222 13:20:08.495"></status>
+<msg timestamp="20210528 12:13:14.765" level="INFO">Executing : Check If Exists In Database  |  select * from classicmodels.customerinfo where BookName='selenium'; </msg>
+<msg timestamp="20210528 12:13:14.765" level="INFO">Executing : Query  |  select * from classicmodels.customerinfo where BookName='selenium'; </msg>
+<status status="PASS" starttime="20210528 12:13:14.764" endtime="20210528 12:13:14.768"></status>
 </kw>
-<tags>
-<tag>Regression</tag>
-</tags>
-<status status="PASS" starttime="20210222 13:20:08.492" endtime="20210222 13:20:08.496" critical="yes"></status>
+<status status="PASS" starttime="20210528 12:13:14.763" endtime="20210528 12:13:14.768" critical="yes"></status>
 </test>
-<test id="s1-t2" name="Tc3 Search User">
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
+<test id="s1-t2" name="Retrieve data from Customers Table">
+<kw name="Query" library="DatabaseLibrary">
+<doc>Uses the input `selectStatement` to query for the values that will be returned as a list of tuples. Set optional
+input `sansTran` to True to run command without an explicit transaction commit or rollback.
+Set optional input `returnAsDict` to True to return values as a list of dictionaries.</doc>
 <arguments>
-<arg>This is search user test</arg>
+<arg>select * from classicmodels.customerinfo;</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:20:08.498" endtime="20210222 13:20:08.499"></status>
+<assign>
+<var>@{queryresults}</var>
+</assign>
+<msg timestamp="20210528 12:13:14.771" level="INFO">Executing : Query  |  select * from classicmodels.customerinfo; </msg>
+<msg timestamp="20210528 12:13:14.772" level="INFO">@{queryresults} = [ ('selenium', datetime.date(2021, 4, 21), 350, 'Africa') | ('Java', datetime.date(2021, 4, 21), 200, 'Africa') | ('Python', datetime.date(2021, 4, 21), 250, 'Asia') | ('Jmeter', datetime.date(2021, 4...</msg>
+<status status="PASS" starttime="20210528 12:13:14.771" endtime="20210528 12:13:14.773"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>@{queryresults}</arg>
+</arguments>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('selenium', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Java', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Python', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Jmeter', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('C#', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Ruby', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('C++', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Perl', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('SQL', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Oracle', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Groovy', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('ETL', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Hadoop', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Postgres', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Mongo', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('book37', datetime.date(2021, 5, 13), 470, 'Bangalore')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book1', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book2', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book3', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book4', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book5', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book6', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book7', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book8', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book9', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.774" level="INFO">('Book10', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.775" level="INFO">('Book11', datetime.date(2021, 4, 21), 350, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.775" level="INFO">('Book12', datetime.date(2021, 4, 21), 200, 'Africa')</msg>
+<msg timestamp="20210528 12:13:14.775" level="INFO">('Book13', datetime.date(2021, 4, 21), 250, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.775" level="INFO">('Book14', datetime.date(2021, 4, 21), 150, 'Asia')</msg>
+<msg timestamp="20210528 12:13:14.775" level="INFO">('Book15', datetime.date(2021, 4, 21), 300, 'Asia')</msg>
+<status status="PASS" starttime="20210528 12:13:14.773" endtime="20210528 12:13:14.775"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>This is search user test is over</arg>
+<arg>${queryresults}</arg>
 </arguments>
-<status status="PASS" starttime="20210222 13:20:08.499" endtime="20210222 13:20:08.499"></status>
+<status status="PASS" starttime="20210528 12:13:14.775" endtime="20210528 12:13:14.776"></status>
 </kw>
-<tags>
-<tag>Regression</tag>
-</tags>
-<status status="PASS" starttime="20210222 13:20:08.497" endtime="20210222 13:20:08.499" critical="yes"></status>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${queryresults}[0]</arg>
+</arguments>
+<status status="PASS" starttime="20210528 12:13:14.776" endtime="20210528 12:13:14.777"></status>
+</kw>
+<status status="PASS" starttime="20210528 12:13:14.770" endtime="20210528 12:13:14.777" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210222 13:20:08.469" endtime="20210222 13:20:08.500"></status>
+<kw name="Disconnect From Database" library="DatabaseLibrary" type="teardown">
+<doc>Disconnects from the database.</doc>
+<msg timestamp="20210528 12:13:14.779" level="INFO">Executing : Disconnect From Database</msg>
+<status status="PASS" starttime="20210528 12:13:14.779" endtime="20210528 12:13:14.779"></status>
+</kw>
+<status status="PASS" starttime="20210528 12:13:14.700" endtime="20210528 12:13:14.780"></status>
 </suite>
 <statistics>
 <total>
@@ -49,10 +111,9 @@
 <stat pass="2" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="2" fail="0">Regression</stat>
 </tag>
 <suite>
-<stat pass="2" fail="0" id="s1" name="Tagging">Tagging</stat>
+<stat pass="2" fail="0" id="s1" name="Dbtesting">Dbtesting</stat>
 </suite>
 </statistics>
 <errors>

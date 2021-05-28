@@ -1,0 +1,2 @@
+[ WARN ] Error in file 'C:\Users\chara\PycharmProjects\sample\Testcases\links.robot' in FOR loop starting on line 14: For loop header ':FOR' is deprecated. Use 'FOR' instead.
+[ WARN ] Error in file 'C:\Users\chara\PycharmProjects\sample\Testcases\links.robot' in FOR loop starting on line 14: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.

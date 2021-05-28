@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Timeouttest                                                            
+==============================================================================
+RegTest                                                               earlier default timeout is 5 seconds
+now default timeout is 10 seconds
+| FAIL |
+No radio button with name 'Gender' and value 'gender-male' found.
+------------------------------------------------------------------------------
+Suites.Timeouttest                                                    | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\22\output.xml

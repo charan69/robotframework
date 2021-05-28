@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Userkeywords Variables                                                 
+==============================================================================
+LoginTest                                                             | FAIL |
+Element with locator 'xpath://input[@value='Log in']' not found.
+------------------------------------------------------------------------------
+Suites.Userkeywords Variables                                         | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\TestResults\pabot_results\23\output.xml

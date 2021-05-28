@@ -15,7 +15,7 @@ TableValidations
     log to console  ${rowvalue}
     table column should contain  xpath://table[@name='BookTable']     3   Subject
     sleep   2
-    table row should contain  xpath://table[@name='BookTable']      6   JAVA
+    table row should contain  xpath://table[@name='BookTable']      6   2000
     sleep   2
     table cell should contain   xpath://table[@name='BookTable']    3   2   Mukesh
     sleep   2

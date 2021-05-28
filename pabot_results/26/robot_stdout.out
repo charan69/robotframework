@@ -1,0 +1,36 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.setupAndTearDown                                                       
+==============================================================================
+opening browser
+TC1PrepaidRecharge                                                    login to application
+this is prepaid recharge test
+logout from application
+| PASS |
+------------------------------------------------------------------------------
+Tc2postpaidrecharge                                                   login to application
+this is postpaid
+logout from application
+| PASS |
+------------------------------------------------------------------------------
+Tc3search function                                                    login to application
+this is search function
+logout from application
+| PASS |
+------------------------------------------------------------------------------
+Tc4advance search                                                     login to application
+advance search
+logout from application
+| PASS |
+------------------------------------------------------------------------------
+closing browser
+Suites.setupAndTearDown                                               | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 critical tests, 4 passed, 0 failed
+4 tests total, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\26\output.xml

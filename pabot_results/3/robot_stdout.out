@@ -1,0 +1,29 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Ddt1                                                                   
+==============================================================================
+valid user name empty password                                        | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+empty user name and valid password                                    | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+valid user name invalid password                                      | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+invalid username valid password                                       | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+valid username valid password                                         | FAIL |
+Element with locator 'xpath://input[@id='Email']' not found.
+------------------------------------------------------------------------------
+Suites.Ddt1                                                           | FAIL |
+5 critical tests, 0 passed, 5 failed
+5 tests total, 0 passed, 5 failed
+==============================================================================
+Suites                                                                | FAIL |
+5 critical tests, 0 passed, 5 failed
+5 tests total, 0 passed, 5 failed
+==============================================================================
+Output:  C:\Users\chara\PycharmProjects\sample\pabot_results\3\output.xml

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.7 on win32)" generated="20210316 17:40:47.598" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Tagging" source="C:\Users\chara\PycharmProjects\sample\Testcases\tagging.robot">
+<test id="s1-s1-t1" name="Tc1 user Registration Test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is user registration test</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.581" endtime="20210316 17:40:48.581"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is user registration test over</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.582" endtime="20210316 17:40:48.583"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20210316 17:40:48.572" endtime="20210316 17:40:48.583" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Tc2 Login Test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is login test</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.585" endtime="20210316 17:40:48.585"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is login tests over</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.586" endtime="20210316 17:40:48.586"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20210316 17:40:48.584" endtime="20210316 17:40:48.586" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="Tc3 Search User">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is search user test</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.587" endtime="20210316 17:40:48.588"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is search user test is over</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.588" endtime="20210316 17:40:48.588"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20210316 17:40:48.587" endtime="20210316 17:40:48.588" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="Tc4 Logout Test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is logout test</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.622" endtime="20210316 17:40:48.622"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is logout tests over</arg>
+</arguments>
+<status status="PASS" starttime="20210316 17:40:48.623" endtime="20210316 17:40:48.623"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20210316 17:40:48.589" endtime="20210316 17:40:48.627" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210316 17:40:48.568" endtime="20210316 17:40:48.628"></status>
+</suite>
+<status status="PASS" starttime="20210316 17:40:48.229" endtime="20210316 17:40:48.631"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0">Regression</stat>
+<stat pass="2" fail="0">sanity</stat>
+</tag>
+<suite>
+<stat pass="4" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="4" fail="0" id="s1-s1" name="Tagging">Suites.Tagging</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
